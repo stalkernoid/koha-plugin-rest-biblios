@@ -15,6 +15,7 @@ package Koha::Plugin::Fi::NatLibFi::Biblios::Biblios;
 #
 # This program comes with ABSOLUTELY NO WARRANTY;
 
+# change to trigger workflow
 use Modern::Perl;
 
 use Mojo::Base 'Mojolicious::Controller';
