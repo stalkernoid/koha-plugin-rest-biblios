@@ -42,6 +42,8 @@ sub add {
         my $record = MARC::Record::new_from_xml( $marcxml, 'UTF-8', $marcflavour );
         my ($biblionumber, $biblioitemnumber) = C4::Biblio::AddBiblio( $record, '' );
 
+        my $var;
+
         if (defined $biblionumber) {
             return $c->render(
                 status  => 201,
