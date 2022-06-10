@@ -7,6 +7,8 @@ Some of the functionality is based on Koha code (see
 https://github.com/Koha-Community/Koha/) and koha-plugin-rest-di (see
 https://github.com/NatLibFi/koha-plugin-rest-di).
 
+test
+
 ## Downloading
 
 You can download the relevant *.kpz file from the [release page](https://github.com/NatLibFi/koha-plugin-rest-biblios/releases).
